@@ -39,11 +39,9 @@ To use HeartRateToResonite, follow these steps:
    The script will hijack the HeartRateOnStream application's connectivity and make it believe it's connecting to OBS.
 
 6. Open Resonite or any application you would like to pipe the heartbeat data to, and configure it to receive heart rate data from the specified source.
+### An example for Resonite is available at `resrec:///U-AlphaNeon/R-803C300B18BF168A811A42301EF086600FC483A3FB9069CE592DC257E8D8DDC7`
 
 7. You should now be able to see and use your heart rate data in Resonite or your chosen application.
 
 **Note**: Ensure that HeartRateOnStream is running on your watch before executing the script, as HeartRateToResonite relies on it.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute this code according to the terms of the license.
